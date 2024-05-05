@@ -47,6 +47,18 @@
 #hero-content a:hover {
     background-color: rgb(255, 238, 0);
 }
+#highlights {
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(227, 255, 253), rgb(202, 243, 240));
+}
+
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(59, 65, 64);
+    margin: 24px 0;
+}
 
 #destinations {
     display: flex;
@@ -59,7 +71,10 @@
     margin: 0 20px;
 }
 
-.destination img {
+.destination strong{
+    color: rgb(0,160,117);
+}
+.destination img{
     height: 200px;
     width: 100%;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
